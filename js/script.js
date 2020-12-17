@@ -3,24 +3,20 @@
 // stampa la lista ordinata alfabeticamente (occhio alle maiuscole, se volete potete convertire il nome prima inserirlo).
 // Scrivi anche la posizione "umana" (quindi per come contiamo noi, non l'indice dell'array) della lista in cui il nuovo utente si trova
 
-// chiediamo il cognome all'utente
+//#1 chiediamo all'utente di inserire il cognome
 var cognome=prompt('inserisci il tuo cognome');
 // console.log(cognome);
-
-// lista cognomi
-var listaCognomi=[‘Bianchi’, ‘Rossi’, ‘Duzioni’, ‘Balsano’, ‘Verdi’];
-// console.log(listaCognomi);
-//aggiunta del cognome
- listaCognomi.push(Gorleta);
-//
-// console.log(listaCognomi);
-
-
-
-//per metterli in ordine alfabetico
-// var myArr = Array.from("ABCDEFG");
-// var listaCognomi=Array.from(‘Bianchi’, ‘Rossi’, ‘Duzioni’, ‘Balsano’, ‘Verdi’);
-// console.log(listaCognomi);
-// per ordinarli da 1 a 6
-// fruits.sort();
-// listaCognomi.sort('');
+//#2 creare una lista di cognomi
+var listaCognomi=["Bianchi", "Rossi", "Duzioni", "Balsano", "Verdi"];
+console.log(listaCognomi);
+//#3 inseriamo il cognome richiesto dall'utente nella nostra lista
+ listaCognomi.push(cognome);
+console.log(listaCognomi);
+//#4 riordino i cognomi in ordine alfabetico
+listaCognomi.sort();//sort singifica riordino
+//#5 stampo i cognomi in ordine alfabetico
+console.log(listaCognomi);
+//#6 trovare posizione del cognome
+var a = listaCognomi.indexOf(cognome);
+// #7stampo della posizione +1
+console.log(a+1);
