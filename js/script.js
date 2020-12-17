@@ -5,19 +5,22 @@
 
 // chiediamo il cognome all'utente
 var cognome=prompt('inserisci il tuo cognome');
+// console.log(cognome);
+
 // lista cognomi
 var listaCognomi=[‘Bianchi’, ‘Rossi’, ‘Duzioni’, ‘Balsano’, ‘Verdi’];
-// aggiunta del cognome
-listaCognomi.push(Gorleta);
-
-console.log(listaCognomi);
+// console.log(listaCognomi);
+//aggiunta del cognome
+ listaCognomi.push(Gorleta);
+//
+// console.log(listaCognomi);
 
 
 
 //per metterli in ordine alfabetico
 // var myArr = Array.from("ABCDEFG");
 // var listaCognomi=Array.from(‘Bianchi’, ‘Rossi’, ‘Duzioni’, ‘Balsano’, ‘Verdi’);
-
+// console.log(listaCognomi);
 // per ordinarli da 1 a 6
 // fruits.sort();
 // listaCognomi.sort('');
